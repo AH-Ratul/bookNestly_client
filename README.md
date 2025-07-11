@@ -6,7 +6,7 @@ A simple and minimal book management system built with modern frontend technolog
 
 ## 🌐 Live URL
 
-👉 Visit the live application: [My Bookstore](https://your-live-url.com)
+👉 Visit the live application: [BookNestly](https://booknestly.vercel.app/)
 
 ---
 
@@ -18,7 +18,6 @@ A simple and minimal book management system built with modern frontend technolog
 - Redux Toolkit
 - RTK Query
 - React Hook Form
-- Cloudinary (for book images — optional)
 
 ### 🧠 Others
 - TypeScript for type safety and better DX
@@ -43,5 +42,32 @@ Follow these steps to set up the application on your local machine:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/BookNestly.git
-cd BookNestly/client
+https://github.com/AH-Ratul/bookNestly_client
+cd bookNestly_client
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Create a .env.local file in the root directory:**
+
+```bash
+VITE_baseURl=server-url
+```
+
+4. **Run the application locally:**
+
+```
+npm run dev
+```
+
+5. **Visit the app in your browser:**
+
+```
+http://localhost:5173
+```
+
+
